@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(to right, #bdc3c7, #2c3e50); */
+  background-color: #fff;
+  /*background: linear-gradient(to right, #f0f2f0, #000c40); */
+}
+/* Top Navigation */
+.head {
+  display: flex;
+  background-color: black;
+  height: 40px;
+  color: white;
+  font-size: 13px;
+  align-items: center;
+  justify-content: right;
+  padding: 0;
+}
+#h2 {
+  position: absolute;
+  left: 50px;
+}
+#a {
+  position: relative;
+  color: #f3f3f3;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+#a:hover {
+  font-size: 17px;
+  transition: 0.5s ease-in-out;
+  color: #fff;
+}
+/* Icon Box */
+
+.Icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  padding: 20px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Icon-box1 h4 {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.Icon-box2 h4 {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.Icon-box3 h4 {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.Icon-box1 h3 {
+  padding-right: 20px;
+  font-size: 18px;
+}
+.Icon-box2 h3 {
+  padding-right: 20px;
+  font-size: 18px;
+}
+.Icon-box3 h3 {
+  padding-right: 20px;
+  font-size: 18px;
+}
+/* image */
+h1 {
+  background-color: #444444;
+  color: #fff;
+  height: 50px;
+  margin-top: 10px;
+
+  font-family: sans-serif;
+}
+.item {
+  display: flex;
+}
+img {
+  margin-right: 20px;
+  float: right;
+  width: 45%;
+  height: 50%;
+  padding-top: 20px;
+}
+.main {
+  font-size: 50px;
+  color: #03171e;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.caption {
+  font-size: 25px;
+
+  font-family: sans-serif;
+  padding: 20px;
+  margin-top: 10px;
+  align-items: center;
+}
+/* footer */
+.footer {
+  background-color: #162f42;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-top: 80px;
+  font-family: sans-serif;
+  padding: 25px 40px;
+  padding-left: 130px;
+}
+.footer,
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+a:hover {
+  transition: 0.5s ease-in;
+  font-size: 18px;
+}
+.footer,
+p {
+  color: #577186;
+}
+#p1 {
+  position: absolute;
+  right: 40px;
+}
